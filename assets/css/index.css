@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+
+:root {
+  --primary-color: #de340b;
+  --secondary-color: #054ada;
+
+  --gray-color: #4d5560;
+  --black-color: #141a23;
+  --white-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  background-color: #ffffff;
+  color: var(--gray-color);
+}
+
+.gapX {
+  padding-left: 0;
+  padding-right: 0;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.middle-content {
+  max-width: 1440px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.middle-content.paddingX {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+input {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* responsive  */
+@media (max-width: 1439px) {
+  .middle-content.paddingX {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .gapX {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .gapX {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
