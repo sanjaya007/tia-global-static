@@ -2,12 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
 
 :root {
-  --primary-color: #de340b;
-  --secondary-color: #054ada;
+  --primary-color: #054ada;
+  --secondary-color: #de340b;
 
   --gray-color: #4d5560;
   --black-color: #141a23;
   --white-color: #ffffff;
+
+  --primary-font: "Geist", sans-serif;
+  --secondary-font: "Inter Tight", sans-serif;
 }
 
 * {
